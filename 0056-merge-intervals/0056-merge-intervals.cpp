@@ -27,6 +27,7 @@ public:
                     ans.push_back(ans1);
                     f = x[0];
                     l = x[1];
+                    //fuck pict 
                 }
             }
       }  
