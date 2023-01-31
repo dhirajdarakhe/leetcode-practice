@@ -30,22 +30,11 @@ int main() {
 
 int * Rearrange(int *arr,int n){
   
-      int i = 0;
-    while (i < n) {
-        int correct = arr[i];
-        if (arr[i] != -1 && arr[i] != arr[correct]) {
-          // if array element should be lesser than
-          // size and array element should not be at
-          // its correct position then only swap with
-          // its correct position or index value
-            swap(arr[i], arr[correct]);
-        }
-        else {
-          // if element is at its correct position
-          // just increment i and check for remaining
-          // array elements
-            i++;
-        }
+    for(int i = 0; i < n; i+=0)
+    {   
+         int correct = arr[i];
+         if(arr[i] != -1 && arr[i] != arr[arr[i]]) swap(arr[i], arr[arr[i]]);
+         else i++;
     }
     return arr;
    
