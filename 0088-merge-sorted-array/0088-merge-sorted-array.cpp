@@ -9,7 +9,6 @@ public:
         {
             if (nm1[i] >= nm2[j]) 
             {  
-                cout<<"1"<<i<<endl;
                 nm1[k] = nm1[i];
                 nm1[i] = 0;
                 i--;
@@ -17,7 +16,6 @@ public:
             }
             else
             {
-                 cout<<"11"<<j<<endl;
                 nm1[k] = nm2[j];
                 nm2[j] = 0;
                 j--;
@@ -26,14 +24,12 @@ public:
         }
         while(i >= 0) 
         {      
-                 cout<<"111"<<i<<endl;
                 nm1[k] = nm1[i];
                 i--;
                 k--;  
         }
         while(j >= 0)
         {
-            cout<<"1111 "<<j<<k<<endl;
                 nm1[k] = nm2[j];
                 nm2[j] = 0;
                 j--;
