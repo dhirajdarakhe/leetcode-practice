@@ -12,7 +12,7 @@ class Solution{
     public:
     int maxLen(vector<int>&A, int n)
     {   
-         map<int,int> mpp; 
+         unordered_map<int,int> mpp; 
     int maxi = 0;
     int sum = 0; 
     for(int i = 0;i<n;i++) {
@@ -31,8 +31,8 @@ class Solution{
     }
 
     return maxi;
-        
-    }
+     // 0.94    
+     }
 };
 
 
