@@ -4,7 +4,7 @@ class MinStack {
 public:
     MinStack() {
         while(!st.empty()) st.pop();
-        mini = INT_MIN;
+        mini = 0;
     }
     
     void push(int val) {
